@@ -12,7 +12,7 @@ buildscript {
 
 tasks {
     wrapper {
-        gradleVersion = "5.5"
+        gradleVersion = "7.5.1"
         distributionType = Wrapper.DistributionType.ALL
     }
 }
@@ -54,7 +54,7 @@ task clean(type: Delete) {
 
 tasks {
     wrapper {
-        gradleVersion = "5.4.1"
+        gradleVersion =7.5.1.1"
         distributionType = Wrapper.DistributionType.ALL
     }
 }
