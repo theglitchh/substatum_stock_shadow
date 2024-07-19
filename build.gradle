@@ -1,18 +1,19 @@
 buildscript {
+
     ext.kotlin_version = '2.0.0'
     repositories {
         google()
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.2.2'
+        classpath 'com.android.tools.build:gradle:8.5.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
 tasks {
     wrapper {
-        gradleVersion = "8.6"
+        gradleVersion = "8.9"
         distributionType = Wrapper.DistributionType.ALL
     }
 }
